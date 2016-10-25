@@ -1,0 +1,66 @@
+/*https://www.mapbox.com/tilemill/docs/guides/advanced-legends/*/
+.filter {
+    z-index: 100;
+    position: absolute;
+    left: 8%;
+    -webkit-box-shadow: 3px 3px 3px #666666;
+    -moz-box-shadow: 3px 3px 3px #666666;
+    box-shadow: 3px 3px 3px #666666;
+}
+
+.legend-filter {
+    padding: 20px;
+}
+
+.legend-filter .legend-title {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.legend-filter .legend-scale ul {
+    margin: 0 0 5px;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+.legend-filter .legend-scale ul li {
+    font-size: 80%;
+    list-style: none;
+    margin-left: 0;
+    line-height: 18px;
+    margin-bottom: 2px;
+}
+.legend-filter ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 16px;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 0;
+    border: 1px solid #999;
+}
+.legend-filter .legend-source {
+    font-size: 70%;
+    color: #999;
+    clear: both;
+}
+
+.dateLabel {
+    font-size: 70%;
+    color: #666666;
+}
+
+#errorMessage {
+    color: red;
+    font-size: 70%;
+}
+
+#startDateClearMessage {
+    font-size: 70%;
+}
+
+#endDateClearMessage {
+    font-size: 70%;
+}

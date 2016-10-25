@@ -1,0 +1,186 @@
+html,
+body {
+    font-family: Raleway;
+    background-color: white;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    color: #4F534E;
+}
+
+a {
+    color: #373A36;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4E92CE;
+}
+
+.btn, .btn:focus {
+    outline: none !important;
+}
+
+.btn-link {
+    color: #373A36;
+    font-size: 24px;
+    text-decoration: none !important;
+}
+
+.btn-link:hover {
+    color: #4E92CE;
+}
+
+.sidebar a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.sub-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EEE;
+}
+
+.logo {
+    padding: 5px;
+}
+
+.sidebar {
+    display: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: -5px;
+    -webkit-box-shadow: 3px 3px 3px #666666;
+    -moz-box-shadow: 3px 3px 3px #666666;
+    box-shadow: 3px 3px 3px #666666;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.sidebar > ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar .active {
+    background-color: #4E92CE;
+}
+
+.sidebar .active > a {
+    text-decoration: none;
+    color: white;
+}
+
+.main .active span,
+.main .active > a {
+    color: #5bc0de;
+}
+
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #4E92CE;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        background-color: #466B8B;
+        border-right: 1px solid #7B807E;
+    }
+}
+
+.main {
+    padding-top: 0px;
+    padding-left: 12px;
+    padding-right: 0;
+    position: relative;
+}
+
+.scrollable {
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+    position: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*margin-left: 15px;*/
+}
+
+.createReport {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.create-form, .edit-form {
+    padding: 20px;
+}
+
+.nav-tabs {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.nav-tabs > li > a:hover{
+    background-color: #c1c1c1 !important;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+}
+
+.nav-tabs > li > a{
+    border: medium none;
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    zoom:1; /* hasLayout ie7 trigger */
+}
+
+.container-fluid {
+    padding-right: 0;
+}
+
+/* This is the homepage background. Pibor3, 4, 5 are Sepiatone, slightly grayed, and cyanotype */
+.homepage {
+    background-image: url(../img/13_Pibor4.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachement: relative;
+    background-size: cover;
+}
+
+/* To change the tab background white from the homepage background */
+.tab-background{
+    background-color: white;
+}
+
+/*The dalhousie Logo */
+.sidebar-footer {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    max-width: 100%;
+}
+
+.profile-logo {
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+}
